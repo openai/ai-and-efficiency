@@ -1,0 +1,13 @@
+Metric,Publication Date,Publication,Publication link,Compute (teraflops-s/days),Reduction Factor,Analysis,Analysis link
+AlexNet,6/1/2012,AlexNet,https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf,3.1,1,AI and Efficiency,
+AlexNet,9/17/2014,GoogleNet,https://arxiv.org/abs/1409.4842,0.71,4.3,AI and Efficiency,
+AlexNet,4/17/2017,MobileNet,https://arxiv.org/abs/1704.04861,0.28,11,AI and Efficiency,
+AlexNet,7/3/2017,ShuffeNet,https://arxiv.org/abs/1707.01083,0.15,21,AI and Efficiency,
+AlexNet,6/30/2018,ShuffleNet v2,https://arxiv.org/abs/1807.11164,0.12,25,AI and Efficiency,
+AlexNet,5/28/2019,EfficientNet,https://arxiv.org/abs/1905.11946,0.069,44,EfficientNet,https://arxiv.org/abs/1905.11946
+ResNet-50,1/10/2015,ResNet-50,https://arxiv.org/abs/1512.03385,17,1,AI and Efficiency,
+ResNet-50,5/28/2019,EfficientNet,https://arxiv.org/abs/1905.11946,0.75,10,EfficientNet,https://arxiv.org/abs/1905.11946
+Seq2Seq,1/10/2014,Seq2Seq (Ensemble),https://arxiv.org/abs/1409.3215,465,1,AI and Compute,https://openai.com/blog/ai-and-compute/
+Seq2Seq,1/12/2017,Transformer (Base),https://arxiv.org/abs/1706.03762,8,61,Attention is all you need,https://arxiv.org/abs/1807.11164
+GNMT,1/26/2016,GNMT,https://arxiv.org/abs/1609.08144,1620,1,Attention is all you need,https://arxiv.org/abs/1807.11164
+GNMT,1/12/2017,Transformer (Big),https://arxiv.org/abs/1706.03762,181,9,Attention is all you need,https://arxiv.org/abs/1807.11164
