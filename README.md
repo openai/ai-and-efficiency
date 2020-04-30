@@ -1,9 +1,9 @@
 # Algorithmic Efficiency SOTA Submissions
 We found that in 2019 it took 44x less compute to train a neural net to AlexNet-level performance than in 2012.
 (Moore’s Law would have only yielded an 11x change in cost over this period).
- 
+
 Going forward, we're going to use this git repository to help publicly track state of the art (SOTA) algorithmic efficiency.
-We're beginning by tracking training efficiency SOTA's in image recognition and translation at two levels. 
+We're beginning by tracking training efficiency SOTA's in image recognition and translation at two levels.
 
 #### AlexNet-level performance
 *79.1% top 5 accuracy on ImageNet*
@@ -42,13 +42,13 @@ We're beginning by tracking training efficiency SOTA's in image recognition and 
 [Transformer (Big)](https://arxiv.org/abs/1706.03762)|181|9|[Attention is all you need](https://arxiv.org/abs/1807.11164)| 1/12/2017
 
 ##In order to make an entry please submit a pull request in which you:
-1. Make the appropriate update to efficiency_sota.csv 
+1. Make the appropriate update to efficiency_sota.csv
 2. Make the appropriate update to the tables in this file, README.MD
 3. Add the relevant calculations/supporting information to the analysis folder. To get examples of calculations please see
 [AI and Compute](https://openai.com/blog/ai-and-compute/#appendixmethods) and Appendix A and B in Measuring the Algorithmic Efficiency of Neural Networks (TODO CDN/arxiv link).
 
 FAQ
-1. We're interested in tracking progress on additional benchmarks that have been of interest for many years and continue 
+1. We're interested in tracking progress on additional benchmarks that have been of interest for many years and continue
 to be of interest. Please send thoughts or analysis on such benchmarks to *danny@openai.com.*
 2. We currently place no restrictions on training data used, but may split results by appropriate categories in the future.
 
@@ -56,7 +56,7 @@ To cite this work please use the following bibtex entry.
 
 @misc{hernandez2020efficiency
 title = {Measuring the Algorithmic Efficiency of Neural Networks},
-author = {Danny Hernandez, Tom B. Brown, Dario Amodei},
+author = {Danny Hernandez, Tom B. Brown},
 year = {2020},
 }
 (TODO update to include arxiv pre-print id)
