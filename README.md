@@ -11,7 +11,7 @@ We're beginning by tracking training efficiency SOTA's in image recognition and 
 | Publication| Compute(tfs-s/days)| Reduction Factor| Analysis| Date |
 | ----------------------- | ------------- | ------------ | ----------------------- | ------------ |
 | [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)|3.1|1|AI and Efficiency| 6/1/2012|
-| [GoogleNet](https://arxiv.org/abs/1409.4842)|0.71|4.3|AI and Efficiency| 9/17/2014|
+| [GoogLeNet](https://arxiv.org/abs/1409.4842)|0.71|4.3|AI and Efficiency| 9/17/2014|
 | [MobileNet](https://arxiv.org/abs/1704.04861)|0.28|11|AI and Efficiency| 4/17/2017|
 | [ShuffeNet](https://arxiv.org/abs/1707.01083)|0.15|21|AI and Efficiency| 7/3/2017|
 | [ShuffleNet_v2](https://arxiv.org/abs/1807.11164)|0.12|25|AI and Efficiency| 6/30/2018|
