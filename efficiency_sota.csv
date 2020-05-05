@@ -1,6 +1,6 @@
 Metric,Publication Date,Publication,Publication link,Compute (teraflops-s/days),Reduction Factor,Analysis,Analysis link
 AlexNet,6/1/2012,AlexNet,https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf,3.1,1,AI and Efficiency,
-AlexNet,9/17/2014,GoogleNet,https://arxiv.org/abs/1409.4842,0.71,4.3,AI and Efficiency,
+AlexNet,9/17/2014,GoogLeNet,https://arxiv.org/abs/1409.4842,0.71,4.3,AI and Efficiency,
 AlexNet,4/17/2017,MobileNet,https://arxiv.org/abs/1704.04861,0.28,11,AI and Efficiency,
 AlexNet,7/3/2017,ShuffleNet (1x),https://arxiv.org/abs/1707.01083,0.15,21,AI and Efficiency,
 AlexNet,6/30/2018,ShuffleNet v2 (1x),https://arxiv.org/abs/1807.11164,0.12,25,AI and Efficiency,
