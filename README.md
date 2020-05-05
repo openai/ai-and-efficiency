@@ -45,12 +45,13 @@ We're beginning by tracking training efficiency SOTA's in image recognition and 
 1. Make the appropriate update to efficiency_sota.csv
 2. Make the appropriate update to the tables in this file, README.MD
 3. Add the relevant calculations/supporting information to the analysis folder. To get examples of calculations please see
-[AI and Compute](https://openai.com/blog/ai-and-compute/#appendixmethods) and Appendix A and B in Measuring the Algorithmic Efficiency of Neural Networks (TODO CDN/arxiv link).
+[AI and Compute](https://openai.com/blog/ai-and-compute/#appendixmethods) and Appendix A and B in [Measuring the Algorithmic Efficiency of Neural Networks](https://cdn.openai.com/papers/ai_and_efficiency.pdf).
 
 FAQ
 1. We're interested in tracking progress on additional benchmarks that have been of interest for many years and continue
 to be of interest. Please send thoughts or analysis on such benchmarks to *danny@openai.com.*
-2. We currently place no restrictions on training data used, but may split results by appropriate categories in the future.
+2. ImageNet is the only training data source allowed for the vision benchmark. No human captioning, other images, or other data is allowed. Automated augmentation is ok.
+3. We currently place no restrictions on training data used for translation, but may split results by appropriate categories in the future.
 
 To cite this work please use the following bibtex entry.
 
@@ -59,4 +60,3 @@ title = {Measuring the Algorithmic Efficiency of Neural Networks},
 author = {Danny Hernandez, Tom B. Brown},
 year = {2020},
 }
-(TODO update to include arxiv pre-print id)
