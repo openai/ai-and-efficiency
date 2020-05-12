@@ -45,7 +45,7 @@ We're beginning by tracking training efficiency SOTA's in image recognition and 
 1. Make the appropriate update to efficiency_sota.csv
 2. Make the appropriate update to the tables in this file, README.MD
 3. Add the relevant calculations/supporting information to the analysis folder. To get examples of calculations please see
-[AI and Compute](https://openai.com/blog/ai-and-compute/#appendixmethods) and Appendix A and B in [Measuring the Algorithmic Efficiency of Neural Networks](https://cdn.openai.com/papers/ai_and_efficiency.pdf).
+[AI and Compute](https://openai.com/blog/ai-and-compute/#appendixmethods) and Appendix A and B in [Measuring the Algorithmic Efficiency of Neural Networks](https://arxiv.org/abs/2005.04305).
 
 FAQ
 1. We're interested in tracking progress on additional benchmarks that have been of interest for many years and continue
@@ -56,7 +56,10 @@ to be of interest. Please send thoughts or analysis on such benchmarks to *danny
 To cite this work please use the following bibtex entry.
 
 @misc{hernandez2020efficiency
-title = {Measuring the Algorithmic Efficiency of Neural Networks},
-author = {Danny Hernandez, Tom B. Brown},
-year = {2020},
+    title = {Measuring the Algorithmic Efficiency of Neural Networks},
+    author = {Danny Hernandez, Tom B. Brown},
+    year = {2020},
+    eprint={2005.04305},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG},
 }
