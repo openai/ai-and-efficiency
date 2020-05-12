@@ -1,5 +1,5 @@
 # Algorithmic Efficiency SOTA Submissions
-We found that in 2019 it took 44x less compute to train a neural net to AlexNet-level performance than in 2012.
+We found that in 2019 it took [44x less compute](https://openai.com/blog/ai-and-efficiency/) to train a neural net to AlexNet-level performance than in 2012.
 (Moore’s Law would have only yielded an 11x change in cost over this period).
 
 Going forward, we're going to use this git repository to help publicly track state of the art (SOTA) algorithmic efficiency.
@@ -11,10 +11,10 @@ We're beginning by tracking training efficiency SOTA's in image recognition and 
 | Publication| Compute(tfs-s/days)| Reduction Factor| Analysis| Date |
 | ----------------------- | ------------- | ------------ | ----------------------- | ------------ |
 | [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)|3.1|1|AI and Efficiency| 6/1/2012|
-| [GoogLeNet](https://arxiv.org/abs/1409.4842)|0.71|4.3|AI and Efficiency| 9/17/2014|
-| [MobileNet](https://arxiv.org/abs/1704.04861)|0.28|11|AI and Efficiency| 4/17/2017|
-| [ShuffeNet](https://arxiv.org/abs/1707.01083)|0.15|21|AI and Efficiency| 7/3/2017|
-| [ShuffleNet_v2](https://arxiv.org/abs/1807.11164)|0.12|25|AI and Efficiency| 6/30/2018|
+| [GoogLeNet](https://arxiv.org/abs/1409.4842)|0.71|4.3|[AI and Efficiency](https://openai.com/blog/ai-and-efficiency/)| 9/17/2014|
+| [MobileNet](https://arxiv.org/abs/1704.04861)|0.28|11|[AI and Efficiency](https://openai.com/blog/ai-and-efficiency/)| 4/17/2017|
+| [ShuffeNet](https://arxiv.org/abs/1707.01083)|0.15|21|[AI and Efficiency](https://openai.com/blog/ai-and-efficiency/)| 7/3/2017|
+| [ShuffleNet_v2](https://arxiv.org/abs/1807.11164)|0.12|25|[AI and Efficiency](https://openai.com/blog/ai-and-efficiency/)| 6/30/2018|
 | [EfficientNet](https://arxiv.org/abs/1905.11946)|0.069|44|[EfficientNet](https://arxiv.org/abs/1905.11946)| 5/28/2019|
 
 #### ResNet-50-level performance
@@ -22,7 +22,7 @@ We're beginning by tracking training efficiency SOTA's in image recognition and 
 
 | Publication| Compute(tfs-s/days)| Reduction Factor| Analysis| Date |
 | ----------------------- | ------------- | ------------ | ----------------------- | ------------ |
-|[ResNet-50](https://arxiv.org/abs/1512.03385)|17|1|AI and Efficiency| 1/10/2015|
+|[ResNet-50](https://arxiv.org/abs/1512.03385)|17|1|[AI and Efficiency](https://openai.com/blog/ai-and-efficiency/)| 1/10/2015|
 |[EfficientNet](https://arxiv.org/abs/1905.11946)|0.75|10|[EfficientNet](https://arxiv.org/abs/1905.11946)| 5/28/2019|
 
 #### Seq2Seq-level Performance
@@ -52,6 +52,7 @@ FAQ
 to be of interest. Please send thoughts or analysis on such benchmarks to *danny@openai.com.*
 2. ImageNet is the only training data source allowed for the vision benchmark. No human captioning, other images, or other data is allowed. Automated augmentation is ok.
 3. We currently place no restrictions on training data used for translation, but may split results by appropriate categories in the future.
+4. A tf-s/day equals a teraflop/s worth of compute run a day.
 
 To cite this work please use the following bibtex entry.
 
