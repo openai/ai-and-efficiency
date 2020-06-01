@@ -41,7 +41,7 @@ We're beginning by tracking training efficiency SOTA's in image recognition and 
 [GNMT](https://arxiv.org/abs/1609.08144)|1620|1|[Attention is all you need](https://arxiv.org/abs/1807.11164)| 1/26/2016
 [Transformer (Big)](https://arxiv.org/abs/1706.03762)|181|9|[Attention is all you need](https://arxiv.org/abs/1807.11164)| 1/12/2017
 
-##In order to make an entry please submit a pull request in which you:
+## In order to make an entry please submit a pull request in which you:
 1. Make the appropriate update to efficiency_sota.csv
 2. Make the appropriate update to the tables in this file, README.MD
 3. Add the relevant calculations/supporting information to the analysis folder. To get examples of calculations please see
@@ -55,7 +55,7 @@ to be of interest. Please send thoughts or analysis on such benchmarks to *danny
 4. A tf-s/day equals a teraflop/s worth of compute run a day.
 
 To cite this work please use the following bibtex entry.
-
+```
 @misc{hernandez2020efficiency
     title = {Measuring the Algorithmic Efficiency of Neural Networks},
     author = {Danny Hernandez, Tom B. Brown},
@@ -64,3 +64,4 @@ To cite this work please use the following bibtex entry.
     archivePrefix={arXiv},
     primaryClass={cs.LG},
 }
+```
